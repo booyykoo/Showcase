@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вітрина</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <h1>el.milas.brand</h1>
+    <h5>clothing brand</h5>
+
+    <!-- Перша вітрина -->
+    <section class="showcase" id="showcase-1">
+        <h2> Плаття для вечірок</h2>
+        <div class="showcase-item">
+            <img src="Photo/Плаття_3.jpg" alt="Плаття 1">
+            <p>WOOD dress</p>
+        </div>
+        <div class="showcase-item">
+            <img src="Photo/Плаття_5.jpg" alt="Плаття 2">
+            <p>SIENA dress</p>
+        </div>
+    </section>
+
+    <!-- Друга вітрина з інтерактивними об'єктами -->
+    <section class="showcase" id="showcase-2">
+        <h2> Святкові плаття</h2>
+        <div class="showcase-item">
+            <img src="Photo/Плаття_4.jpg" alt="Плаття 3">
+            <p>MONICA dress</p>
+        </div>
+        <div class="showcase-item">
+            <img src="Photo/Плаття_1.jpg" alt="Плаття 4">
+            <p>ROSIE dress</p>
+        </div>
+    </section>
+
+    <!-- Третя вітрина з можливістю додавання власних об'єктів -->
+    <section class="showcase" id="showcase-3">
+        <h2> Літні плаття</h2>
+        <div class="showcase-item">
+            <img src="Photo/Плаття_2.jpg" alt="Плаття 5">
+            <p>BELLA dress</p>
+        </div>
+        <div class="showcase-item">
+            <img src="Photo/Плаття_6.jpg" alt="Плаття 6">
+            <p>SANTORINI dress</p>
+        </div>
+
+        <h3>Додай ідею для назви свого плаття!</h3>
+        <input type="text" id="new-item" placeholder="Назва нового плаття">
+        <button id="add-item">Додати плаття</button>
+        <div class="dynamic-showcase"></div>
+    </section>
+
+</body>
+</html>
